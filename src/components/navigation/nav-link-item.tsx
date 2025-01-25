@@ -9,7 +9,7 @@ const NavLinkItem: React.FC<NavLinkItemProps> = (props) => {
   const { icon, link, label } = props
   return (
     <NavLink to={link}>
-      <div className="flex flex-col items-center gap-2 text-neutral-400 font-normal text-[11px]">
+      <div className="flex flex-col items-center gap-2 font-normal text-[11px]">
         {icon}
         <span>{label}</span>
       </div>
