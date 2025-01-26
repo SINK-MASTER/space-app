@@ -62,21 +62,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tagName: app-v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version.
+          tagName: v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version.
           releaseName: 'v__VERSION__'
           # releaseBody: 'See the assets to download this version and install.'
-          releaseDraft: true
+          # releaseDraft: true
           prerelease: false
           args: ${{ matrix.args }}
-
-      - name: upload release assets
-        uses: softprops/action-gh-release@v2
-        with:
-          files: |
-            ./src-tauri/target/release/bundle/**/*
-          token: ${{ secrets.GITHUB_TOKEN }}
-          release_name: app-v__VERSION__
-          release_tag: v__VERSION__
-          body: 'See the assets to download this version and install.'
-          draft: true
-          prerelease: false
