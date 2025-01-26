@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "space-app",
+  "productName": "Space Man",
   "version": "0.1.0",
   "identifier": "com.space-app.app",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "space-app",
+        "title": "Space Man",
         "width": 800,
         "height": 600,
         "hiddenTitle": true,
