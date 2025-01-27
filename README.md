@@ -1,7 +1,7 @@
-# Tauri + React + Typescript
-
-This template should help get you started developing with Tauri, React and Typescript in Vite.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+<div align="center">
+<a href="https://github.com/tiny-craft/tiny-rdm/"><img src="src-tauri/icons/icon.png" width="120"/></a>
+</div>
+<h1 align="center">Space Man</h1>
+<a href="https://github.com/tiny-craft/tiny-rdm/blob/main/README_zh.md">
+简体中文</a>
+<div align="center">
