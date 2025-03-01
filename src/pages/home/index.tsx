@@ -1,3 +1,4 @@
+import { Button } from '@heroui/react'
 import { WebviewWindow } from '@tauri-apps/api/webviewWindow'
 import React from 'react'
 
@@ -12,12 +13,13 @@ const Home: React.FC = () => {
   }
 
   return (
-    <div className="p-2 h-full w-full flex flex-col justify-center items-center">
-      <button className="rounded p-2 bg-neutral-900 cursor-pointer" onClick={createWindos}>
-        <div className="bg-gradient-to-l from-pink-700 to-blue-500 text-transparent bg-clip-text">
-          Create New Windows
-        </div>
-      </button>
+    <div className="flex h-full w-full flex-col items-center justify-center p-2">
+      <Button
+        className="border bg-gradient-to-tr from-pink-700 to-purple-700 bg-clip-text text-transparent"
+        onPress={createWindos}
+      >
+        Create New Windows
+      </Button>
     </div>
   )
 }
